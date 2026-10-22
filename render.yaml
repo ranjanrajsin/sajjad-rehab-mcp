@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sajjad-rehab-mcp
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeployTrigger: commit
